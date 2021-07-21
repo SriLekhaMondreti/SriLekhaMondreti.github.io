@@ -21,6 +21,11 @@
   
 }
 
+img {
+  max-width:100%;
+  height:auto;
+}
+
 .social a {
 font-size: 3em;
 padding: 3rem;

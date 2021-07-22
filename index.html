@@ -145,13 +145,63 @@
 	<div class="row padding">
 		<div class="col-sm-8 padding">
 			<h2 class="text-center">Reach out to me!</h2>
-			<br><br>
-			<h5>
-				<ul>
-					<li>Software Developer Intern, Amrita Tool Crafts</li>
-					<li>Microsoft Engage '21 Mentee, Microsoft</li>
-				</ul>
-			</h5>
+			<p class="text-center w-responsive mx-auto mb-5">Drop a suggestion, feedback, opportunities or we can colaborate on a project. Please do mention your contact details if you are expecting a reply.</p>
+			<div class="row">
+
+				<!--Grid column-->
+				<div class="col-md-9 mb-md-0 mb-5">
+					<form id="contact-form" name="contact-form" action="mail.php" method="POST">
+		
+						<!--Grid row-->
+						<div class="row">
+		
+							<!--Grid column-->
+							<div class="col-md-6">
+								<div class="md-form mb-0">
+									<input type="text" id="name" name="name" class="form-control">
+									<label for="name" class="">Your Name</label>
+								</div>
+							</div>
+							<!--Grid column-->
+		
+							<!--Grid column-->
+							<div class="col-md-6">
+								<div class="md-form mb-0">
+									<input type="text" id="email" name="email" class="form-control">
+									<label for="email" class="">Your Email</label>
+								</div>
+							</div>
+							<!--Grid column-->
+		
+						</div>
+						<!--Grid row-->
+		
+						<!--Grid row-->
+						<div class="row">
+		
+							<!--Grid column-->
+							<div class="col-md-12">
+		
+								<div class="md-form">
+									<textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+									<label for="message">Your Message</label>
+								</div>
+		
+							</div>
+						</div>
+						<!--Grid row-->
+		
+					</form>
+		
+					<div class="text-center text-md-left">
+						<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+					</div>
+					<div class="status"></div>
+				</div>
+				<!--Grid column-->
+		
+			</div>
+
 		</div>
 		<div class="col-sm-4">
 			<img class= "img-fluid" src = "./img/connect.svg" alt="Hello SVG"/>
